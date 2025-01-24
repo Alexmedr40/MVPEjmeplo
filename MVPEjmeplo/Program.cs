@@ -24,7 +24,7 @@ namespace MVPEjmeplo
             Modelo model = new Modelo();
             new Presentador(view, model);
 
-            Application.Run(view as Form);
+            Application.Run(view);
         }
     }
 }
